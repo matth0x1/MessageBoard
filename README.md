@@ -4,7 +4,7 @@
 **Trade Offs**
 - Time.  The allotted time is of course not enough to produce *anything* production ready.
 - Storage of messages is in-memory and not stored persistently; i.e. service not backed by a RDB or document store.
-- Without being backed by storage, this service would be difficult effectively scale.
+- Without being backed by storage, this service would be difficult to effectively scale.
 - Very limited error handling.
 - No metrics.
 - Very limited logging.
